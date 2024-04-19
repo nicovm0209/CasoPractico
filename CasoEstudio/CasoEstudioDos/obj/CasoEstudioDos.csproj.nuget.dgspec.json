@@ -1,23 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\keylo\\source\\repos\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj": {}
+    "C:\\Users\\Jordan Hernández\\Desktop\\Caso P 2\\CasoPractico\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\keylo\\source\\repos\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj": {
+    "C:\\Users\\Jordan Hernández\\Desktop\\Caso P 2\\CasoPractico\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\keylo\\source\\repos\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj",
+        "projectUniqueName": "C:\\Users\\Jordan Hernández\\Desktop\\Caso P 2\\CasoPractico\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj",
         "projectName": "CasoEstudioDos",
-        "projectPath": "C:\\Users\\keylo\\source\\repos\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj",
-        "packagesPath": "C:\\Users\\keylo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\keylo\\source\\repos\\CasoEstudio\\CasoEstudioDos\\obj\\",
+        "projectPath": "C:\\Users\\Jordan Hernández\\Desktop\\Caso P 2\\CasoPractico\\CasoEstudio\\CasoEstudioDos\\CasoEstudioDos.csproj",
+        "packagesPath": "C:\\Users\\Jordan Hernández\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jordan Hernández\\Desktop\\Caso P 2\\CasoPractico\\CasoEstudio\\CasoEstudioDos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\keylo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordan Hernández\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +28,9 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -39,11 +44,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
