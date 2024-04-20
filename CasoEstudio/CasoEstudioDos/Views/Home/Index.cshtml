@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<CasoEstudioDos.Models.Comment>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -19,114 +20,18 @@
     </div>
     <p>El principio de responsabilidad única establece que una clase debe tener una sola razón para cambiar. En otras palabras, una clase debe tener una única responsabilidad o tarea dentro del sistema. Esto promueve la cohesión y modularidad en el diseño del software, lo que facilita el mantenimiento, la comprensión y la reutilización del código. Cuando una clase asume múltiples responsabilidades, se vuelve más propensa a cambios y más difícil de entender, lo que puede llevar a un código frágil y difícil de mantener. Al aplicar el principio de responsabilidad única, se fomenta la creación de clases más pequeñas y especializadas, cada una centrada en una tarea específica, lo que conduce a un diseño más flexible y robusto del sistema.</p>
 </div>
-<div class="text-center">
-    <p style="max-width:400px; font-style:italic">estos es una prueba para colocar comentarios</p>
-</div>
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Has un comentario" aria-label="Has un comentario" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Agregar</button>
-</div>
-
-
-
-<div class="text-left" style="margin-top:50px">
-    <div style="display: flex; flex-direction: row; align-items: center;">
-        <h4 style="margin-right: 10px;">Principio de Abierto/Cerrado (OCP)</h4>
-        <div style="display: flex; align-items: center;">
-            <div style="margin-right: 20px;">
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-10-64.png" style="width: 30px; height: 30px;">
-                <span>50</span>
-            </div>
-            <div>
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-20-64.png" style="width: 30px; height: 30px;">
-                <span>10</span>
-            </div>
-        </div>
+@foreach (var comment in Model)
+{
+    <div>
+        <p>@comment.Contenido</p>
     </div>
-    <p>El principio de abierto/cerrado establece que las clases deben estar abiertas para su extensión pero cerradas para su modificación. En otras palabras, el comportamiento de una clase debe poder ser extendido sin necesidad de cambiar su código fuente. Esto se logra mediante el uso de la herencia, la composición u otras técnicas de diseño, permitiendo que nuevos comportamientos sean agregados al sistema sin modificar las clases existentes. Al adherirse al principio de abierto/cerrado, se fomenta la modularidad, la reutilización y la mantenibilidad del código, ya que los cambios en el sistema se pueden realizar sin afectar su estructura existente. Esto facilita la adaptación del software a nuevos requerimientos y escenarios, promoviendo un diseño más robusto y flexible.</p>
-</div>
-<div class="text-center">
-    <p style="max-width:400px; font-style:italic">estos es una prueba para colocar comentarios</p>
-</div>
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Has un comentario" aria-label="Has un comentario" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Agregar</button>
-</div>
+}
 
-
-
-<div class="text-left" style="margin-top:50px">
-    <div style="display: flex; flex-direction: row; align-items: center;">
-        <h4 style="margin-right: 10px;">Principio de Sustitución de Liskov (LSP)</h4>
-        <div style="display: flex; align-items: center;">
-            <div style="margin-right: 20px;">
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-10-64.png" style="width: 30px; height: 30px;">
-                <span>50</span>
-            </div>
-            <div>
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-20-64.png" style="width: 30px; height: 30px;">
-                <span>10</span>
-            </div>
-        </div>
+<form method="post" asp-action="AgregarComentario">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="contenido" placeholder="Escribe un comentario" aria-label="Escribe un comentario" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Agregar</button>
     </div>
-    <p>El principio de sustitución de Liskov establece que los objetos de un programa deberían ser sustituibles por instancias de sus subtipos sin alterar la corrección del programa. En otras palabras, si S es un subtipo de T, entonces los objetos de tipo T pueden ser reemplazados por objetos de tipo S sin afectar el comportamiento del programa. Este principio promueve la coherencia y la consistencia en el diseño del software, permitiendo que los programas sean más flexibles y adaptables a medida que evolucionan. Al adherirse al principio de sustitución de Liskov, se garantiza que las clases y subclases mantengan un comportamiento coherente, lo que facilita la comprensión, la reutilización y el mantenimiento del código.</p>
-</div>
-<div class="text-center">
-    <p style="max-width:400px; font-style:italic">estos es una prueba para colocar comentarios</p>
-</div>
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Has un comentario" aria-label="Has un comentario" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Agregar</button>
-</div>
+</form>
 
 
-
-<div class="text-left" style="margin-top:50px">
-    <div style="display: flex; flex-direction: row; align-items: center;">
-        <h4 style="margin-right: 10px;">Principio de Segregación de la Interfaz (ISP)</h4>
-        <div style="display: flex; align-items: center;">
-            <div style="margin-right: 20px;">
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-10-64.png" style="width: 30px; height: 30px;">
-                <span>50</span>
-            </div>
-            <div>
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-20-64.png" style="width: 30px; height: 30px;">
-                <span>10</span>
-            </div>
-        </div>
-    </div>
-    <p>El principio de segregación de la interfaz establece que una clase no debe verse obligada a implementar interfaces que no utiliza. En otras palabras, es preferible tener interfaces más específicas y especializadas que una única interfaz grande y general. Al dividir las interfaces en conjuntos más pequeños y cohesivos, se evita que las clases dependan de métodos que no necesitan, lo que promueve una mejor modularidad, mantenibilidad y flexibilidad en el diseño del software. Al adherirse al principio de segregación de la interfaz, se minimiza el acoplamiento entre clases y se facilita la creación de sistemas más fáciles de entender, probar y mantener.</p>
-</div>
-<div class="text-center">
-    <p style="max-width:400px; font-style:italic">estos es una prueba para colocar comentarios</p>
-</div>
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Has un comentario" aria-label="Has un comentario" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Agregar</button>
-</div>
-
-
-
-<div class="text-left" style="margin-top:50px">
-    <div style="display: flex; flex-direction: row; align-items: center;">
-        <h4 style="margin-right: 10px;">Principio de Inversión de Dependencias (DIP)</h4>
-        <div style="display: flex; align-items: center;">
-            <div style="margin-right: 20px;">
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-10-64.png" style="width: 30px; height: 30px;">
-                <span>50</span>
-            </div>
-            <div>
-                <img src="https://cdn4.iconfinder.com/data/icons/multimedia-75/512/multimedia-20-64.png" style="width: 30px; height: 30px;">
-                <span>10</span>
-            </div>
-        </div>
-    </div>
-    <p>El principio de inversión de dependencias establece que los módulos de alto nivel no deben depender de los detalles de implementación de los módulos de bajo nivel, sino más bien de abstracciones. En otras palabras, los módulos de alto nivel deben depender de interfaces o abstracciones, y no de implementaciones concretas de esos módulos de bajo nivel. Esto promueve la flexibilidad y la escalabilidad en el diseño del software, ya que facilita el intercambio de componentes y la introducción de nuevos comportamientos sin necesidad de modificar los módulos de alto nivel. Al adherirse al principio de inversión de dependencias, se fomenta una arquitectura más desacoplada y modular, lo que facilita la prueba, la reutilización y el mantenimiento del código.</p>
-</div>
-<div class="text-center">
-    <p style="max-width:400px; font-style:italic">estos es una prueba para colocar comentarios</p>
-</div>
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Has un comentario" aria-label="Has un comentario" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Agregar</button>
-</div>

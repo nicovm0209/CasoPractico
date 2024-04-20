@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|c:\\users\\admin\\onedrive - castrocarazo\\documentos\\fidelitas\\programacion avanzada web\\casopractico-main\\casopractico-main\\casoestudio\\casoestudiodos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|solutionrelative:casoestudiodos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|c:\\users\\admin\\onedrive - castrocarazo\\documentos\\fidelitas\\programacion avanzada web\\casopractico-main\\casopractico-main\\casoestudio\\casoestudiodos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|solutionrelative:casoestudiodos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|c:\\users\\admin\\onedrive - castrocarazo\\documentos\\fidelitas\\programacion avanzada web\\casopractico-main\\casopractico-main\\casoestudio\\casoestudiodos\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|solutionrelative:casoestudiodos\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|c:\\users\\admin\\onedrive - castrocarazo\\documentos\\fidelitas\\programacion avanzada web\\casopractico-main\\casopractico-main\\casoestudio\\casoestudiodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|solutionrelative:casoestudiodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|c:\\users\\admin\\onedrive - castrocarazo\\documentos\\fidelitas\\programacion avanzada web\\casopractico-main\\casopractico-main\\casoestudio\\casoestudiodos\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F0CF13-3900-4742-A578-3BD6C2C86437}|CasoEstudioDos\\CasoEstudioDos.csproj|solutionrelative:casoestudiodos\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudioDos\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudioDos\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T04:39:47.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Program.cs",
+              "RelativeDocumentMoniker": "CasoEstudioDos\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Program.cs",
+              "RelativeToolTip": "CasoEstudioDos\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:28:11.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CasoEstudioDos\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CasoEstudioDos\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:13:33.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "CasoEstudioDos\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Models\\Comment.cs",
+              "RelativeToolTip": "CasoEstudioDos\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:13:22.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CasoEstudioDos\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - CastroCarazo\\Documentos\\Fidelitas\\Programacion avanzada web\\CasoPractico-main\\CasoPractico-main\\CasoEstudio\\CasoEstudioDos\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CasoEstudioDos\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:11:55.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

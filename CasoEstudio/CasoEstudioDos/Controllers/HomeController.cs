@@ -5,22 +5,32 @@ using System.Diagnostics;
 namespace CasoEstudioDos.Controllers
 {
     public class HomeController : Controller
-    {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+    {
+
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var comments = _context.Comments.ToList();
+            return View(comments);
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult AgregarComentario(string contenido)
         {
-            return View();
+            if (!string.IsNullOrEmpty(contenido))
+            {
+                var comment = new Comment { Contenido = contenido };
+                _context.Comments.Add(comment);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -28,5 +38,8 @@ namespace CasoEstudioDos.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
     }
+
 }
