@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Posts
+{
+    public class UpdatePost
+    {
+        public int PostId { get; set; }
+
+        public int UserId { get; set; }
+
+        public string  Title { get; set; }
+        public string Content { get; set; }
+
+        public string Like { get; set; }
+
+        public string Dislike { get; set; }
+        public bool Active { get; set; }
+
+
+    }
+}
+    
